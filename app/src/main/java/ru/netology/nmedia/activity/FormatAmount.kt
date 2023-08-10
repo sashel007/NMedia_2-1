@@ -1,4 +1,4 @@
-package ru.netology.nmedia
+package ru.netology.nmedia.activity
 
 //преобразование формата представления кол-ва
 fun formatAmount(amount: Int): String {
