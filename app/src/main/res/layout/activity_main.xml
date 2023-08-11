@@ -31,7 +31,7 @@
         app:layout_constraintStart_toEndOf="@+id/avatar"
         app:layout_constraintTop_toBottomOf="@+id/author" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/avatar"
         android:layout_width="@dimen/avatar_dimens"
         android:layout_height="@dimen/avatar_dimens"

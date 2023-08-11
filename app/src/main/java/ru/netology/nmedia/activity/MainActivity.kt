@@ -29,16 +29,13 @@ class MainActivity : AppCompatActivity() {
                 sharingsNumber.text = formatAmount(post.sharings)
             }
         }
+        //обработчик кнопки лайк
         binding.likeIcon.setOnClickListener {
             viewModel.like()
         }
+        //обработчик кнопки "поделиться"
         binding.sharingIcon.setOnClickListener {
             viewModel.share()
         }
-////      обработка кнопки "поделиться"
-//        binding.sharingIcon.setOnClickListener {
-//            post.sharings++
-//            binding.sharingsNumber.text = formatAmount(post.sharings)
-//        }
     }
 }
